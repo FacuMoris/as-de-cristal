@@ -1,0 +1,63 @@
+html{
+    background-image: url(media/fondo-piedras.jpg);
+    background-repeat: no-repeat;
+}
+header{ 
+    background-color:rgba(48,41,93,.8);    
+   border-color: black;
+}
+
+h1{
+    color: aqua;
+    border-color: black;
+    border-style: dashed;
+    font-size: 60px;
+    font-style: italic;
+
+}
+body{
+
+}
+
+div#redes{
+    padding-left:380px;
+    border-style: none;
+
+}
+
+img#redlogo{
+    border: 2px solid black;
+    width: 40px;}
+
+div{
+   
+}
+
+a{
+    color:aqua;
+}
+
+a:hover{color:blueviolet}
+
+
+.container{
+color: red;
+text-align: center;
+border-style: solid;
+border-color: black;
+padding:15px;
+}
+
+
+.logoimg{
+    padding-top: 9px;
+    width: 280px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 180px;
+}
+
+nav.principal{
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
