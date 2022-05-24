@@ -1,63 +1,84 @@
-html{
-    background-image: url(media/fondo-piedras.jpg);
-    background-repeat: no-repeat;
-}
-header{ 
-    background-color:rgba(48,41,93,.8);    
-   border-color: black;
+*{
+    font-family: 'Dancing Script', cursive;
 }
 
-h1{
-    color: aqua;
-    border-color: black;
-    border-style: dashed;
-    font-size: 60px;
-    font-style: italic;
-
-}
 body{
-
+    margin:0;
+    padding:0;
 }
 
-div#redes{
-    padding-left:380px;
-    border-style: none;
-
-}
-
-img#redlogo{
-    border: 2px solid black;
-    width: 40px;}
-
-div{
-   
-}
-
-a{
-    color:aqua;
-}
-
-a:hover{color:blueviolet}
-
-
-.container{
-color: red;
-text-align: center;
-border-style: solid;
-border-color: black;
-padding:15px;
+img.logo{
+    padding-top: 15px;
+    display: block;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-.logoimg{
-    padding-top: 9px;
-    width: 280px;
-    border-style: solid;
-    border-color: white;
-    border-radius: 180px;
+header{
+
+    background-color: #eee;
+    margin: 5px;
 }
 
-nav.principal{
-    padding-top: 30px;
-    padding-bottom: 0px;
+header h1{
+    text-align: center;
+    margin:0 auto;
+}
+
+div h1{
+    font-size:small;
+}
+
+h1.logo{
+    font-size: 70px;
+}
+
+header div{
+  }
+
+header ul{
+list-style-type: none;
+padding:0;
+}
+
+header ul a {
+    text-decoration: none;
+    color:black;
+}
+
+div.container{
+    justify-content: center;
+}
+div#redes.logo ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+div#redes.logo ul a {
+    padding: 15px;
+    color: black;
+}
+
+header ul li{
+    text-align: center;
+    position: relative;
+}
+
+h2{
+    text-align: center;
+}
+
+div#button{
+    position: relative;
+    display: relative;
+    background-color: red;
+    margin :0 auto;
+    justify-content: center;
+}
+button{
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
