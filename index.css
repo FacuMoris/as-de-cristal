@@ -1,84 +1,149 @@
 *{
-    font-family: 'Dancing Script', cursive;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 body{
-    margin:0;
-    padding:0;
+    background-image: url(media/fondo-ondas.jpg);
 }
 
-img.logo{
-    padding-top: 15px;
-    display: block;
-    max-width: 250px;
-    margin-left: auto;
-    margin-right: auto;
+p.copy{
+    color:rgba(140, 140, 140, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-left:30px;
 }
 
+div#main{
+    margin:35px;
+    justify-content: center;
+    background-color: rgba(255,255,255,.3);
+    backdrop-filter: blur(5px);
+    border:1px  solid rgba(255,255,255,05);
+    border-radius:15px;
+}
 
 header{
-
-    background-color: #eee;
-    margin: 5px;
+    border: 1px solid transparent;
+    background-image: url(media/fondo-piedras.jpg);
 }
 
-header h1{
+img{
     text-align: center;
-    margin:0 auto;
+    padding-top:45px;
+    max-height: 800px;
+    margin: 0 auto;
+    display:block;
 }
 
-div h1{
-    font-size:small;
-}
-
-h1.logo{
-    font-size: 70px;
-}
-
-header div{
-  }
-
-header ul{
-list-style-type: none;
-padding:0;
-}
-
-header ul a {
-    text-decoration: none;
+h1{
+    text-shadow: 2px 2px 10px white;
+    font-family: 'Roboto Slab', serif;
     color:black;
+    text-align: center;
+    font-size: 40px;
+    margin:20px;
+}
+
+nav.indice ul{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    list-style-type: none;
+    font-size: 50px
+}
+
+nav.indice a{
+    color: white;
+    text-shadow: 4px 4px 10px black ;
+}
+
+a{
+    text-decoration: none;
+    color:black; 
+}
+
+nav.indice ul li {
+    font-size: 85px;
+    padding-top:25px;
+    padding-bottom: 20px;
+}
+
+div.logos{
+    font-size: 150px;
+    text-align: center;
+}
+
+div.logos a{
+    padding:25px 30px;
 }
 
 div.container{
-    justify-content: center;
-}
-div#redes.logo ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-}
-
-div#redes.logo ul a {
-    padding: 15px;
-    color: black;
-}
-
-header ul li{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height:55px;
+    background-color: rgba(255,255,255,0.7);
+    border: 2px solid black;
+    border-radius: 25px;
+    margin:30px;
     text-align: center;
-    position: relative;
+    box-shadow: 3px 3px 5px black;
 }
 
+body p{
+    line-height: 79px;
+    font-family: 'Roboto Slab', serif;
+    padding: 30px 100px;
+}
 h2{
+    padding-bottom: 20px;
+    font-family:'Dancing Script';
+    font-size: 100px;
+}
+
+div.titulo{
+    margin:0;
+    padding-top: 20px;
+    background-color: rgba(12, 12, 184,.5);
+}
+
+button{
+    color:black;
+    text-shadow: 2px 2px 2px;
+    font-family: 'Roboto Slab', serif; ;
+    font-size: 70px;
+    padding: 15px 50px;
+    margin-top:20px;
+    background-color: rgba(12, 12, 184,.5);
+    border: 5px black solid;
+    border-radius: 30px;
+    box-shadow:3px 3px 5px white;
+}
+
+footer{
+    border-top: 5px solid black;
+    margin:0;
+    height: 350px;
+    background-color: rgba(30,30,30);
+}
+
+footer div p{
+    padding:0;
+    margin:0;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+footer div.home{
+    padding-top:35px;
+    font-size: 150px;
     text-align: center;
 }
 
-div#button{
-    position: relative;
-    display: relative;
-    background-color: red;
-    margin :0 auto;
-    justify-content: center;
+div.home a{
+    color:white;
 }
-button{
-    justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
+
+
