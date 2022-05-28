@@ -4,19 +4,53 @@
     box-sizing: border-box;
 }
 
+
+/*
+div#sobre-nos{
+    background-image: url(media/patron1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+div#productos{
+    background-image: url(media/patron2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#pedidos{
+    background-image: url(media/patron3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
+
+header{
+    background:linear-gradient(to bottom,rgba(0,0,0,.2), rgba(0,0,0,.8) , rgba(0,0,0,1)), 
+    linear-gradient(to top, rgba(0,0,0,.1) , rgba(0,0,0,.3))
+    ,url(media/fondo-piedras.jpg);
+    padding-top: 1px;
+   /*background:linear-gradient url(media/fondo-piedras.jpg), (rgba(0,0,0,.2), rgba(0,0,0,.9)), ;*/
+}
+
 body{
-    background-image: url(media/fondo-ondas.jpg);
+    background:linear-gradient(to top, rgba(0,0,0,.2), rgba(0,0,0,.9), rgba(0,0,0,1)), rgba(0,0,0,1) 
+    url(media/fondo-ondas.jpg);
+    /*background-image: url(media/fondo-ondas.jpg);*/ 
+    
 }
 
 p.copy{
     color:rgba(140, 140, 140, 0.7);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-    padding-left:30px;
+    padding: 0px;
+
 }
 
 div#main{
-    margin:35px;
+    padding-bottom:30px;
+    margin:30px 35px 30px 35px;
     justify-content: center;
     background-color: rgba(255,255,255,.3);
     backdrop-filter: blur(5px);
@@ -24,14 +58,11 @@ div#main{
     border-radius:15px;
 }
 
-header{
-    border: 1px solid transparent;
-    background-image: url(media/fondo-piedras.jpg);
-}
+
 
 img{
     text-align: center;
-    padding-top:45px;
+    padding-top:20px;
     max-height: 800px;
     margin: 0 auto;
     display:block;
@@ -42,8 +73,9 @@ h1{
     font-family: 'Roboto Slab', serif;
     color:black;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     margin:20px;
+    margin-top: 0px;
 }
 
 nav.indice ul{
@@ -60,7 +92,7 @@ nav.indice a{
 
 a{
     text-decoration: none;
-    color:black; 
+    color:white; 
 }
 
 nav.indice ul li {
@@ -72,20 +104,23 @@ nav.indice ul li {
 div.logos{
     font-size: 150px;
     text-align: center;
+    padding-top:20px;
+    margin:0;
 }
 
 div.logos a{
-    padding:25px 30px;
+    padding-bottom: 0px;
 }
 
 div.container{
     padding-top: 50px;
     padding-bottom: 50px;
     line-height:55px;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.5);
     border: 2px solid black;
     border-radius: 25px;
     margin:30px;
+    margin-bottom: 50px;
     text-align: center;
     box-shadow: 3px 3px 5px black;
 }
@@ -121,10 +156,9 @@ button{
 }
 
 footer{
-    border-top: 5px solid black;
     margin:0;
-    height: 350px;
-    background-color: rgba(30,30,30);
+    height: 330px;
+    background-color: rgba(0,0,0,0);
 }
 
 footer div p{
@@ -132,18 +166,20 @@ footer div p{
     margin:0;
     justify-content: center;
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 footer div.home{
-    padding-top:35px;
-    font-size: 150px;
+    padding-top:10px;
+    font-size: 130px;
     text-align: center;
 }
 
 div.home a{
     color:white;
 }
+
+
 
 
 
