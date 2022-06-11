@@ -90,7 +90,7 @@ a.logo{
         .logo-img{
             display: flex;
             background-position: 0px -10px;
-            background-image: url(media/LogoT2.png);
+            background-image: url(./media/LogoT2.png);
             filter: drop-shadow(0 0 5px rgba(230, 230, 230, .6));
             background-repeat: no-repeat;
             background-size: 270px 270px; /*290x290*/
