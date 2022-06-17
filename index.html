@@ -6,122 +6,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>As de Cristal</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="icon" type="image/png" href="./media/LogoT2.png">
 </head>
 
 <body>
-    <div id="welcome" class="container">
-        <header class="header">
-            <div class="logo-img"></div>
-            <div class="titulo">
-                <h1>Resina E-poxi - Productos personalizados</h1>
+    <div id="welcome" class="container__hero">
+        <header class="hero">
+            <div class="hero__imgcont"><img class="hero__img" src="./media/LogoT2.png" alt="As de Cristal logo">
+           <h1 class="hero__title">Resina E-poxi - Productos personalizados</h1>
             </div>
-            <div class="nav">
-                <nav class="indice">
-                    <ul>
-                        <div class="lista sobre-nos">
-                            <li><a href="#sobre-nos">Sobre Nosotros</a></li>
-                        </div>
-                        <div class="lista productos">
-                            <li><a href="#productos">Productos Disponibles</a></li>
-                        </div>
-                        <div class="lista pedidos">
-                            <li><a href="#pedidos">Galeria/Pedidos</a></li>
-                        </div>
-                    </ul>
-                </nav>
-            </div>
-            <div class="logos">
-                <ion-icon class="llave" name="chevron-forward-outline"></ion-icon>
-                <a class="logo" target="_blank"
+            <div class="hero_nav">
+            <nav class="hero__menu">
+                <ul class="hero__links">
+                    <li><a href="#sobre-nos" class="hero__link hero__sobrenos">Sobre Nosotros</a></li>
+                    <li><a href="#productos" class="hero__link">Productos Disponibles</a></li>
+                    <li><a href="#pedidos" class="hero__link">Galeria/Pedidos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+            <div class="hero__logos">
+
+                <a class="hero__logolink" target="_blank"
                     href="https://wa.me/1134800906?text=Buenas,%20me%20pasarias%20informacion%20sobre%20los%20productos?%20Gracias.">
-                    <ion-icon name="logo-whatsapp"></ion-icon>
+                    <img class="hero__logo logo-whatsapp logo" src="./media/whatsapp.svg" alt="logo whatsapp">
                 </a>
-                <a class="logo" target="_blank" href="https://www.instagram.com/asdecristal">
-                    <ion-icon name="logo-instagram"></ion-icon>
+
+                <a class="hero__logolink" target="_blank" href="https://www.instagram.com/asdecristal">
+                    <img class="hero__logo logo-instagram logo" src="./media/instagram.svg" alt="logo instagram">
                 </a>
-                <a class="logo" target="_blank" href="#">
-                    <ion-icon name="logo-facebook"></ion-icon>
+
+                <a class="hero__logolink" target="_blank" href="#">
+                    <img class="hero__logo logo-tiktok logo" src="./media/tiktok.svg" alt="logo tiktok">
                 </a>
-                <ion-icon class="llave" name="chevron-back-outline"></ion-icon>
+
+
             </div>
         </header>
-
-        <div class="sections">
-            <section class="caja sobre-nos">
-                <div class="texto">
-                    <h2 id="sobre-nos">Sobre Nosotros</h2>
-                    <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fugit minima soluta
+        <div class="section__top-wave"></div>
+        <div class="container__sections">
+            <section class="section section__sobre-nos">
+                <div class="section__text">
+                    <h2 id="sobre-nos" class="section__title">Sobre Nosotros</h2>
+                    <p class="section__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fugit
+                        minima soluta
                         ab qui,
                         maxime dignissimos aperiam voluptate illo nihil mollitia dolores. Culpa dicta eum est
                         voluptatibus sunt reprehenderit nemo.</p>
                 </div>
-                <div class=button>
-                    <button>Ver mas</button>
+                <div class=section__button>
+                    <button class="button">Ver mas</button>
                 </div>
             </section>
 
-            <section class="caja productos">
-                <div class="texto">
-                    <h2 id="productos">Productos Disponibles</h2>
-                    <p class="info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem a assumenda
+            <section class="section section__productos">
+                <div class="section__text">
+                    <h2 id="productos" class="section__title">Productos Disponibles</h2>
+                    <p class="section__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Exercitationem a assumenda
                         iure
                         vero facere! Magnam, minus odio! In, quod possimus, asperiores earum minus animi error
                         odit vitae eligendi qui pariatur?</p>
                 </div>
-                <div class="button">
-                    <button>Ver mas</button>
+                <div class="section__button">
+                    <button class="button">Ver mas</button>
                 </div>
             </section>
 
-            <section class="caja pedidos">
-                <div class="texto">
-                    <h2 id="pedidos">Galeria / Pedidos</h2>
-                    <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio veritatis
+            <section class="section section__pedidos">
+                <div class="section__text">
+                    <h2 id="pedidos" class="section__title">Galeria/Pedidos</h2>
+                    <p class="section__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio
+                        veritatis
                         corrupti tempore
                         sunt earum atque quos maiores laboriosam adipisci, dicta, nam expedita eos deserunt quibusdam
                         voluptates, dolor vitae praesentium!</p>
                 </div>
-                <div class="button">
-                    <button>Ver mas</button>
+                <div class="section__button">
+                    <button class="button">Ver mas</button>
                 </div>
             </section>
         </div>
         <footer class="footer">
-            <div class="logos-footer">
-                <ion-icon class="llave" name="chevron-forward-outline"></ion-icon>
-                <a class="logo-footer" target="_blank"
+            <!-- <div class="footer__logos">
+                <a target="_blank"
                     href="https://wa.me/1134800906?text=Buenas,%20me%20pasarias%20informacion%20sobre%20los%20productos?%20Gracias.">
-                    <ion-icon name="logo-whatsapp"></ion-icon>
+                    <img class="footer__logo logo" src="./media/whatsapp.svg" alt="logo-whatsapp">
                 </a>
-                <a class="logo-footer" target="_blank" href="https://www.instagram.com/asdecristal">
-                    <ion-icon name="logo-instagram"></ion-icon>
+                <a class="footer__logolink" target="_blank" href="https://www.instagram.com/asdecristal">
+                    <img class="footer__logo logo" src="./media/instagram.svg" alt="logo instagram">
                 </a>
-                <a class="logo-footer" target="_blank" href="#">
-                    <ion-icon name="logo-facebook"></ion-icon>
+                <a class="footer_logolink" target="_blank" href="#">
+                    <img class="footer__logo logo" src="./media/tiktok.svg" alt="logo tiktok">
                 </a>
-                <ion-icon class="llave" name="chevron-back-outline"></ion-icon>
+            </div> -->
+            <div class="footer__home ">
+                <a class="footer__logolink" href="#welcome">
+                    <img class="footer__logo logo" src="./media/home.svg" alt="home icon">
+                </a>
             </div>
-            <div class="creditos-home">
-                <div class="home">
-                    <a href="#welcome">
-                        <ion-icon class="home-footer" name="home-outline"></ion-icon>
-                    </a>
-                </div>
-                <div class="texto-footer">
-                <p class="copy">As de Cristal Ailen Smith &copy; Copyright 2022</p>
+                <div class="footer__text">
+                    <p class="footer_paragraph">As de Cristal Ailen Smith &copy; Copyright 2022</p>
             </div>
-            </div>
-            </div>
-        </footer>
+    </footer>
     </div>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
